@@ -2,5 +2,23 @@ h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 4em;
     text-align: center;
-    color: blue;
+    color: darkslategray;
+    
 }
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color: darkslategray;
+}
+img{
+    width: 200px;
+    height: 200px;
+    align-content: center;
+    padding: 30px;
+    
+}
+.c1{
+    margin-left: 280px;
+}
+
