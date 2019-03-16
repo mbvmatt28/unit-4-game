@@ -11,14 +11,15 @@ h2{
     text-align: center;
     color: darkslategray;
 }
-img{
-    width: 200px;
-    height: 200px;
-    align-content: center;
-    padding: 30px;
-    
-}
-.c1{
-    margin-left: 280px;
-}
 
+.crystals{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.crystal{
+    border:1px solid green;
+    height: 200px;
+    width: 200px;
+}
