@@ -1,25 +1,42 @@
+body{
+    background-color: black;
+}
 h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 4em;
     text-align: center;
-    color: darkslategray;
+    color: rgb(212, 214, 214);
+    padding: 40px;
     
 }
 h2{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 2em;
     text-align: center;
-    color: darkslategray;
+    color: rgb(212, 214, 214);
 }
 
 .crystals{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 50px;
 
 }
 .crystal{
-    border:1px solid green;
+    border:1px solid grey;
     height: 200px;
     width: 200px;
+    
+}
+.crystal:hover{
+    cursor: pointer;
+    transform: translate(5px,20px);
+    transition: transform 2s;
+}
+.font{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color: rgb(212, 214, 214);
 }

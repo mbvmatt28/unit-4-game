@@ -9,10 +9,10 @@ var startGame = function (){
     $(".crystals").empty();
 //Crystal Images
 var images = [
-    "https://www.bespoke-gems.com/images/gemstones/photo-gallery/1/doug-menadue-bespoke-gems-Finished%20this%20beauty%20last%20week.%20%20This%20is%2029.32%20carats%20of%20golden%20honey%20citrine%20cu.jpg",
-    "http://www.chicmags.com/wp-content/uploads/2013/01/Sapphires.jpg",
-    "http://www.artiniangems.com/wp-content/uploads/red_gem_OurStory-192x192.png",
-    "http://www.store.palagems.com/Images/gem_news/featured_neon_tourm.jpg"
+    "assets/images/yellow_crystal.jpg",
+    "assets/images/blue_crystal.png",
+    "assets/images/purple_crystal.jpg",
+    "assets/images/cyan_crystal.jpg"
 ]
 //Generate random number between 30 and 70
     winningNum = Math.floor(Math.random() * 40 ) + 30;
@@ -33,6 +33,7 @@ var images = [
             })
         $(".crystals").append(crystal);
         console.log(random)
+            
     }
 
     }
@@ -63,4 +64,3 @@ $(document).on('click', ".crystal", function () {
 
 //Else total score > winningNum then alert("you lose!")
 
-//Create a restart button 
